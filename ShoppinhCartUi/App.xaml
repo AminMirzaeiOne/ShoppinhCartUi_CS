@@ -60,5 +60,18 @@
             </Setter>
         </Style>
 
+        <Style x:Key="buttonDelete" TargetType="Button">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#ECF0F1" BorderThickness="0" Padding="5">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Application.Resources>
 </Application>
