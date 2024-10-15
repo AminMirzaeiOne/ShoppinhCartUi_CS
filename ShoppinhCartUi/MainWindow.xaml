@@ -4,8 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShoppinhCartUi"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:uc="clr-namespace:ShoppinhCartUi.Controls"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True" Background="Transparent" WindowStyle="None"
+        Height="700" Width="1180" MinWidth="1050" MinHeight="650">
     <Grid>
         
     </Grid>
