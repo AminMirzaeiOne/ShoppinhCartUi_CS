@@ -20,6 +20,9 @@ namespace ShoppinhCartUi.Controls
     /// </summary>
     public partial class Item : UserControl
     {
+        public static readonly DependencyProperty SourceProperty = DependencyProperty.Register("Source", typeof(ImageSource), typeof(Item));
+
+
         public Item()
         {
             InitializeComponent();
