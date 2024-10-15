@@ -25,5 +25,8 @@
 
         <TextBlock Grid.Column="1" Text="{Binding Path=Title,ElementName=item}" FontWeight="SemiBold" FontSize="16" VerticalAlignment="Center"/>
 
+        <TextBlock Grid.Column="1" Text="{Binding Path=Ref,ElementName=item}" Foreground="#909090" FontSize="11" VerticalAlignment="Center" Margin="0 38 0 0"/>
+
+        
     </Grid>
 </UserControl>
