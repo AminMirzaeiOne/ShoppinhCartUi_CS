@@ -75,5 +75,67 @@
             </Grid>
         </Grid>
 
+        <!--Card Section-->
+        <Grid Grid.Column="1" Background="#4B4643" Grid.Row="1">
+            <Grid.Effect>
+                <DropShadowEffect ShadowDepth="10" BlurRadius="50"/>
+            </Grid.Effect>
+
+            <!--Ellipses-->
+            <Border HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Height="130" Margin="-30 50 0 0" Background="#4B4643" CornerRadius="10 0 0 10" Padding="10 20 5 20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Ellipse Width="8" Height="8" Fill="#7B7A78" Grid.Row="0"/>
+                    <Ellipse Width="8" Height="8" Fill="#F1C40F" Grid.Row="1"/>
+                    <Ellipse Width="8" Height="8" Fill="#7B7A78" Grid.Row="2"/>
+                </Grid>
+            </Border>
+
+            <!--Inputs-->
+            <StackPanel Margin="50 100 50 0" VerticalAlignment="Top">
+                <TextBlock Text="Card Details" Foreground="#F1C40F" FontWeight="SemiBold" FontSize="24" Margin="0 0 0 70"/>
+
+                <TextBlock Text="Select Card Type" Style="{StaticResource titleText}"/>
+                <Grid Margin="0 15 0 30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" HorizontalAlignment="Left" Source="/Images/mastercard.png" Width="25" Style="{StaticResource icon}"/>
+                    <Image Grid.Column="1" HorizontalAlignment="Center" Source="/Images/visa.png" Width="25" Style="{StaticResource icon}"/>
+                    <Image Grid.Column="2" HorizontalAlignment="Right" Source="/Images/credit.png" Width="25" Style="{StaticResource icon}"/>
+                </Grid>
+
+                <TextBlock Text="Card Number" Style="{StaticResource titleText}"/>
+                <TextBox Margin="0 5 0 30"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel>
+                        <TextBlock Text="Expire Date" Style="{StaticResource titleText}"/>
+                        <TextBox Margin="0 5 0 0"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Margin="30 0 0 0" Width="50">
+                        <TextBlock Text="CVV" Style="{StaticResource titleText}"/>
+                        <TextBox Margin="0 5 0 0"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+
+            <Button Content="Checkout" Style="{StaticResource buttonCheckout}"/>
+        </Grid>
+
     </Grid>
 </Window>
