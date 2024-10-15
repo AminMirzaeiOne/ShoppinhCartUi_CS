@@ -23,5 +23,7 @@
             </Ellipse.Fill>
         </Ellipse>
 
+        <TextBlock Grid.Column="1" Text="{Binding Path=Title,ElementName=item}" FontWeight="SemiBold" FontSize="16" VerticalAlignment="Center"/>
+
     </Grid>
 </UserControl>
