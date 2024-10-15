@@ -7,6 +7,14 @@
              mc:Ignorable="d" 
              Name="item">
     <Grid Background="#E5E9EA" Margin="0 15 0 0" HorizontalAlignment="Center">
-            
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="27"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="110"/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </UserControl>
