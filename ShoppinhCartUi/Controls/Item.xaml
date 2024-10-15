@@ -41,5 +41,8 @@
             </Button>
         </StackPanel>
 
+        <TextBlock Grid.Column="5" Text="{Binding Path=Price,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16"/>
+
+
     </Grid>
 </UserControl>
