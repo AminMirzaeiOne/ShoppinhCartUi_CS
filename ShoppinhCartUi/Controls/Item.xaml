@@ -29,6 +29,8 @@
 
         <TextBlock Grid.Column="2" Text="{Binding Path=Color,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16"/>
 
+        <TextBlock Grid.Column="3" Text="{Binding Path=Count,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16"/>
+
 
     </Grid>
 </UserControl>
