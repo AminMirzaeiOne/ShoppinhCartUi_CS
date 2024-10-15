@@ -24,5 +24,13 @@ namespace ShoppinhCartUi.Controls
         {
             InitializeComponent();
         }
+
+        public ImageSource Source
+        {
+            get { return (ImageSource)GetValue(SourceProperty); }
+            set { SetValue(SourceProperty, value); }
+        }
+
+
     }
 }
