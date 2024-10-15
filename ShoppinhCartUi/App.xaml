@@ -97,5 +97,10 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="titleText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#e9e9e9" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+
     </Application.Resources>
 </Application>
