@@ -51,6 +51,12 @@ namespace ShoppinhCartUi.Controls
             set { SetValue(RefProperty, value); }
         }
 
+        public string Color
+        {
+            get { return (string)GetValue(ColorProperty); }
+            set { SetValue(ColorProperty, value); }
+        }
+
 
     }
 }
