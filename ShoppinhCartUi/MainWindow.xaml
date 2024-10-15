@@ -29,5 +29,51 @@
             </Button>
         </StackPanel>
 
+        <!--Products Section-->
+        <Grid Background="#ECF0F1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <!--Title-->
+            <StackPanel Orientation="Horizontal" Margin="0 40 0 30">
+                <TextBlock Text="Sz" FontSize="28" FontWeight="SemiBold" FontFamily="Trebuchet MS" VerticalAlignment="Center" Margin="50 0 0 0"/>
+                <Rectangle VerticalAlignment="Stretch" Fill="#808080" Width="0.7" Margin="20 5 20 5"/>
+                <TextBlock Text="Your Shopping Cart" FontSize="26" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <!--Products-->
+            <StackPanel Grid.Row="1">
+
+                <uc:Item Source="/Images/p4.png" Title="Beni T-Shirt" Ref="Ref. 007197660" Color="Black" Count="1" Price="75.00  USD"/>
+                <uc:Item Source="/Images/p3.png" Title="Patizen Socks" Ref="Ref. 001289258" Color="Cream" Count="3" Price="10.00  USD"/>
+                <uc:Item Source="/Images/p2.png" Title="Matric Shoes" Ref="Ref. 006542123" Color="Green" Count="1" Price="90.00  USD"/>
+                <uc:Item Source="/Images/p1.png" Title="Cheter Gloves" Ref="Ref. 002322111" Color="Black" Count="2" Price="20.00  USD"/>
+                <uc:Item Source="/Images/p1.png" Title="Beni T-Shirt" Ref="Ref. 009687963" Color="Blue" Count="4" Price="15.00  USD"/>
+                <uc:Item Source="/Images/p1.png" Title="Beni T-Shirt" Ref="Ref. 002122666" Color="Blue" Count="1" Price="68.00  USD"/>
+                <uc:Item Source="/Images/p1.png" Title="Beni T-Shirt" Ref="Ref. 001110475" Color="Blue" Count="1" Price="13.00  USD"/>
+                <uc:Item Source="/Images/p1.png" Title="Beni T-Shirt" Ref="Ref. 003637100" Color="Blue" Count="1" Price="63.00  USD"/>
+                <uc:Item Source="/Images/p1.png" Title="Beni T-Shirt" Ref="Ref. 007175420" Color="Blue" Count="1" Price="42.00  USD"/>
+
+            </StackPanel>
+
+            <!--Bottom Section-->
+            <Grid Grid.Row="2" Margin="80 40 150 40">
+                <Button Style="{StaticResource buttonBack}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Images/left.png" Width="20"/>
+                        <TextBlock Text="Back to Shop" VerticalAlignment="Center" Margin="15 0 0 0"/>
+                    </StackPanel>
+                </Button>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <TextBlock Text="Subtotal :" FontSize="16"/>
+                    <TextBlock Text="195.00 USD" FontWeight="SemiBold" FontSize="16" Margin="30 0 0 0"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+
     </Grid>
 </Window>
