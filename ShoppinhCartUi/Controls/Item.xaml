@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ShoppinhCartUi.Controls"
              mc:Ignorable="d" 
              Name="item">
-    <Grid>
+    <Grid Background="#E5E9EA" Margin="0 15 0 0" HorizontalAlignment="Center">
             
     </Grid>
 </UserControl>
