@@ -9,6 +9,9 @@
         AllowsTransparency="True" Background="Transparent" WindowStyle="None"
         Height="700" Width="1180" MinWidth="1050" MinHeight="650">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
