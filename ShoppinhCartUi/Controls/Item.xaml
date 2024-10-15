@@ -44,5 +44,10 @@
         <TextBlock Grid.Column="5" Text="{Binding Path=Price,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16"/>
 
 
+        <Button Style="{StaticResource buttonDelete}" Grid.Column="6">
+            <Image Source="../Images/remove.png" Width="18" Style="{StaticResource icon}"/>
+        </Button>
+
+
     </Grid>
 </UserControl>
