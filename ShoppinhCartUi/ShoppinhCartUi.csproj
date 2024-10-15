@@ -101,8 +101,21 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Resource Include="Images\add.png" />
+    <Resource Include="Images\close.png" />
+    <Resource Include="Images\credit.png" />
+    <Resource Include="Images\left.png" />
+    <Resource Include="Images\low.png" />
+    <Resource Include="Images\mastercard.png" />
+    <Resource Include="Images\mini.png" />
+    <Resource Include="Images\p1.png" />
+    <Resource Include="Images\p2.png" />
+    <Resource Include="Images\p3.png" />
+    <Resource Include="Images\p4.png" />
+    <Resource Include="Images\remove.png" />
+    <Resource Include="Images\visa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
