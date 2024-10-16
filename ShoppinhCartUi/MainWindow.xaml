@@ -7,7 +7,7 @@
         xmlns:uc="clr-namespace:ShoppinhCartUi.Controls"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
         AllowsTransparency="True" Background="Transparent" WindowStyle="None"
-        Height="700" Width="1180" MinWidth="1050" MinHeight="650">
+        Height="690" Width="1180" MinWidth="1050" MinHeight="650">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
