@@ -4,8 +4,9 @@
 Designing the user interface of a store in WPF<br />
 
 <h2> ⭐ Features</h2>
-- Modern and beautiful design <br />
-- Visual diagram <br />
+-Modern User Interface<br />
+- Light and Dark <br />
+- Change Colors
 
 <h2> 🏗 Build Information</h2>
 - Made in year = February 2019 <br />
