@@ -20,7 +20,7 @@
         </Grid.RowDefinitions>
 
         <!--TitleBar-->
-        <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal" Background="#444444" Panel.ZIndex="1" FlowDirection="RightToLeft" MouseDown="StackPanel_MouseDown">
+        <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal" Background="#444444" Panel.ZIndex="1" FlowDirection="RightToLeft" MouseDown="StackPanel_MouseDown" Margin="0,0,0,654" Grid.RowSpan="2">
             <Button Style="{StaticResource buttonClose}">
                 <Image Width="20" Source="/Images/close.png" Margin="2 0 0 0" MouseDown="Image_MouseDown"/>
             </Button>
@@ -30,7 +30,7 @@
         </StackPanel>
 
         <!--Products Section-->
-        <Grid Background="#ECF0F1" Grid.Row="1">
+        <Grid Background="#212121" Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
@@ -39,13 +39,13 @@
 
             <!--Title-->
             <StackPanel Orientation="Horizontal" Margin="0 40 0 30">
-                <TextBlock Text="Sz" FontSize="28" FontWeight="SemiBold" FontFamily="Trebuchet MS" VerticalAlignment="Center" Margin="50 0 0 0"/>
+                <TextBlock Text="Sz" FontSize="28" FontWeight="SemiBold" FontFamily="Trebuchet MS" VerticalAlignment="Center" Margin="50 0 0 0" Foreground="White"/>
                 <Rectangle VerticalAlignment="Stretch" Fill="#808080" Width="0.7" Margin="20 5 20 5"/>
-                <TextBlock Text="Your Shopping Cart" FontSize="26" VerticalAlignment="Center"/>
+                <TextBlock Text="Your Shopping Cart" FontSize="26" VerticalAlignment="Center" Foreground="White"/>
             </StackPanel>
 
             <!--Products-->
-            <StackPanel Grid.Row="1">
+            <StackPanel Grid.Row="1" Background="#212121">
 
                 <uc:Item Source="/Images/p4.png" Title="Beni T-Shirt" Ref="Ref. 007197660" Color="Black" Count="1" Price="75.00  USD"/>
                 <uc:Item Source="/Images/p3.png" Title="Patizen Socks" Ref="Ref. 001289258" Color="Cream" Count="3" Price="10.00  USD"/>
@@ -63,14 +63,14 @@
             <Grid Grid.Row="2" Margin="80 40 150 40">
                 <Button Style="{StaticResource buttonBack}">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="/Images/left.png" Width="20"/>
-                        <TextBlock Text="Back to Shop" VerticalAlignment="Center" Margin="15 0 0 0"/>
+                        <TextBlock Text="" Width="20" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe MDL2 Assets"/>
+                        <TextBlock Text="Back to Shop" VerticalAlignment="Center" Margin="15 0 0 0" Foreground="White"/>
                     </StackPanel>
                 </Button>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
-                    <TextBlock Text="Subtotal :" FontSize="16"/>
-                    <TextBlock Text="195.00 USD" FontWeight="SemiBold" FontSize="16" Margin="30 0 0 0"/>
+                    <TextBlock Text="Subtotal :" FontSize="16" Foreground="White"/>
+                    <TextBlock Text="195.00 USD" FontWeight="SemiBold" FontSize="16" Margin="30 0 0 0" Foreground="White"/>
                 </StackPanel>
             </Grid>
         </Grid>
@@ -91,14 +91,14 @@
                     </Grid.RowDefinitions>
 
                     <Ellipse Width="8" Height="8" Fill="#7B7A78" Grid.Row="0"/>
-                    <Ellipse Width="8" Height="8" Fill="#F1C40F" Grid.Row="1"/>
+                    <Ellipse Width="8" Height="8" Fill="Crimson" Grid.Row="1"/>
                     <Ellipse Width="8" Height="8" Fill="#7B7A78" Grid.Row="2"/>
                 </Grid>
             </Border>
 
             <!--Inputs-->
             <StackPanel Margin="50 100 50 0" VerticalAlignment="Top">
-                <TextBlock Text="Card Details" Foreground="#F1C40F" FontWeight="SemiBold" FontSize="24" Margin="0 0 0 70"/>
+                <TextBlock Text="Card Details" Foreground="Crimson" FontWeight="SemiBold" FontSize="24" Margin="0 0 0 70"/>
 
                 <TextBlock Text="Select Card Type" Style="{StaticResource titleText}"/>
                 <Grid Margin="0 15 0 30">

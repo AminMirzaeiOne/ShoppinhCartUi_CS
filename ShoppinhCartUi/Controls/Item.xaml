@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ShoppinhCartUi.Controls"
              mc:Ignorable="d" 
              Name="item">
-    <Grid Background="#E5E9EA" Margin="0 15 0 0" HorizontalAlignment="Center">
+    <Grid Background="#121212" Margin="0 15 0 0" HorizontalAlignment="Center">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
             <ColumnDefinition Width="150"/>
@@ -23,13 +23,13 @@
             </Ellipse.Fill>
         </Ellipse>
 
-        <TextBlock Grid.Column="1" Text="{Binding Path=Title,ElementName=item}" FontWeight="SemiBold" FontSize="16" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" Text="{Binding Path=Title,ElementName=item}" FontWeight="SemiBold" FontSize="16" VerticalAlignment="Center" Foreground="White"/>
 
         <TextBlock Grid.Column="1" Text="{Binding Path=Ref,ElementName=item}" Foreground="#909090" FontSize="11" VerticalAlignment="Center" Margin="0 38 0 0"/>
 
-        <TextBlock Grid.Column="2" Text="{Binding Path=Color,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16"/>
+        <TextBlock Grid.Column="2" Text="{Binding Path=Color,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16" Foreground="White"/>
 
-        <TextBlock Grid.Column="3" Text="{Binding Path=Count,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16"/>
+        <TextBlock Grid.Column="3" Text="{Binding Path=Count,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16" Foreground="White"/>
 
         <StackPanel Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Left">
             <Button Style="{StaticResource buttonCounter}">
@@ -41,7 +41,7 @@
             </Button>
         </StackPanel>
 
-        <TextBlock Grid.Column="5" Text="{Binding Path=Price,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16"/>
+        <TextBlock Grid.Column="5" Text="{Binding Path=Price,ElementName=item}" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="16" Foreground="White"/>
 
 
         <Button Style="{StaticResource buttonDelete}" Grid.Column="6">
