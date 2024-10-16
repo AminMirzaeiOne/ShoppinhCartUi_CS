@@ -22,7 +22,7 @@
         <!--TitleBar-->
         <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal" Background="#444444" Panel.ZIndex="1" FlowDirection="RightToLeft" MouseDown="StackPanel_MouseDown">
             <Button Style="{StaticResource buttonClose}">
-                <Image Width="20" Source="/Images/close.png" Margin="2 0 0 0"/>
+                <Image Width="20" Source="/Images/close.png" Margin="2 0 0 0" MouseDown="Image_MouseDown"/>
             </Button>
             <Button Style="{StaticResource buttonMini}" Margin="5 0 0 0">
                 <Image Width="17" Source="/Images/mini.png" VerticalAlignment="Bottom"/>

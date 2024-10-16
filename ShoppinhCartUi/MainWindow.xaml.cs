@@ -32,5 +32,9 @@ namespace ShoppinhCartUi
             }
         }
 
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 }
