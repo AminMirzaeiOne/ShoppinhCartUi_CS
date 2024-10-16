@@ -135,6 +135,18 @@
             </StackPanel>
 
             <Button Content="Checkout" Style="{StaticResource buttonCheckout}"/>
+            <Label Content="Amin Mirzaei" HorizontalAlignment="Left" Margin="140,468,0,0" VerticalAlignment="Top" Foreground="#FFE9E9E9" FontSize="16"/>
+            <Ellipse HorizontalAlignment="Left" Height="60" Margin="62,453,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="60">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/AminMirzaeiProfile.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Label Content="aminmirzaeione" HorizontalAlignment="Left" Margin="139,540,0,0" VerticalAlignment="Top" Foreground="#FFE9E9E9" FontSize="16"/>
+            <Ellipse HorizontalAlignment="Left" Height="60" Margin="62,525,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="60">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/GithubPng.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
         </Grid>
 
     </Grid>
