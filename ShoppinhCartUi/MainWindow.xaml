@@ -25,7 +25,7 @@
                 <Image Width="20" Source="/Images/close.png" Margin="2 0 0 0" MouseDown="Image_MouseDown"/>
             </Button>
             <Button Style="{StaticResource buttonMini}" Margin="5 0 0 0">
-                <Image Width="17" Source="/Images/mini.png" VerticalAlignment="Bottom"/>
+                <Image Width="17" Source="/Images/mini.png" VerticalAlignment="Bottom" MouseDown="Image_MouseDown_1"/>
             </Button>
         </StackPanel>
 
